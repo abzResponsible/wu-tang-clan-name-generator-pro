@@ -13,8 +13,8 @@ body {
 }
 
 body {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background-image: url("https://unsplash.com/photos/InYPkJsRXvM");
   background-position: center center;
   background-repeat: no-repeat;
