@@ -4,7 +4,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .title,
@@ -51,7 +51,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -70,7 +70,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 400px;
 }
 
 .card {
@@ -82,7 +82,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 150px;
 }
 
 .card:hover,
@@ -105,10 +105,10 @@
 
 .logo {
   height: 1em;
-  margin-left: 0.5rem;
+  margin-left: 0.2rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 300px) {
   .grid {
     width: 100%;
     flex-direction: column;
